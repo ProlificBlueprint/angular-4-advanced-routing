@@ -58,7 +58,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Authors
 
-* **Andrew Stephenson** - *Initial work* - [Prolific Blueprint](https://github.com/ProlifcBluprint)
+* **Andrew Stephenson** - *Initial work* - [Prolific Blueprint](https://github.com/ProlificBlueprint)
 
 
 ## Further help
