@@ -1,4 +1,4 @@
-# SuperFriends
+# Super Friends
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.7.
 
@@ -58,7 +58,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Authors
 
-* **Andrew Stephenson** - *Initial work* - [Prolific Blueprint](https://github.com/PurpleBooth)
+* **Andrew Stephenson** - *Initial work* - [Prolific Blueprint](https://github.com/ProlifcBluprint)
 
 
 ## Further help
