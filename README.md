@@ -2,9 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.7.
 
+## Goal
+
+To create an angular 4 app that will allow us to sub route while tracking a parent routes variable. This becomes challenging when nesting three or more child routes deep as we did in this mini app. There are also many ways to solve this problem but this is the solution we have chosen.
+
 ## Basic Architecture
 
-The key to creating this mini app was in how used the angular service and routing to accomplish one main goal. To sub route while tracking the parent. This becomes challenging when going three routes deep as we did in this app.
+The key to creating this mini app was in how we used the angular service and routing together to track the values we wanted to track. This allowed us to share this data accurately and reliably to all components in the app, including those who were nested child routes :) . 
+
 
 #### How Do We Nest Routes ?
 
