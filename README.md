@@ -47,7 +47,7 @@ getVariable(){
 }
 ```
 
-## Development server
+## Checkout the Project .. .literally
 
 Navigate to root folder
 
