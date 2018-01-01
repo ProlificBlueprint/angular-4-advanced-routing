@@ -1,0 +1,17 @@
+.app-welcome {
+   
+}
+
+.welcomeCard {
+    padding: 20px;
+}
+
+.welcomeCard--title {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.welcomeCard--body {
+    font-size: 14px;
+}

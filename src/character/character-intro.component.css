@@ -1,0 +1,39 @@
+/* .attrCard {
+    width: 75%;
+    float: left;
+    padding: 0px;
+    height: 150px;
+    text-align: center;
+}
+
+.attrCard--title {
+    font-size: 20px;
+    line-height: 150px;
+    text-align: center;
+    text-decoration: underline;
+} */
+
+.attrCard {
+    width: 75%;
+    float: left;
+    padding: 0px;
+    min-height: 150px;
+    text-align: center;
+    height: calc( 100vh - 215px);
+    background: #f7f7f7;
+}
+
+.attrCard--title {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+figure {
+    margin-top: 50px;
+}
+
+figure img {
+    max-width: 150px;
+    margin: 50px auto;
+}

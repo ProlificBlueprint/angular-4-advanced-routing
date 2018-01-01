@@ -1,0 +1,12 @@
+<ul *ngIf="main_tab" class="sideTabs">
+    <li>
+        <a [routerLink]="[ main_tab  , { outlets: { attr:'speed' } } ]" routerLinkActive="active"> Speed </a>
+    </li>
+    <li>
+        <a [routerLink]="[ main_tab  ,  { outlets: { attr:'agility' } } ]" routerLinkActive="active"> Agility </a>
+    </li>
+    <li>
+        <a [routerLink]="[ main_tab  ,   {  outlets: { attr :'strength' } } ]" routerLinkActive="active"> Strength </a>
+    </li>
+</ul>
+    

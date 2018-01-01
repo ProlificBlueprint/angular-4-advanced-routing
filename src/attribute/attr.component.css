@@ -1,0 +1,20 @@
+.app-attr {
+    
+}
+
+.attrCard {
+    width: 75%;
+    float: left;
+    padding: 0px;
+    min-height: 150px;
+    text-align: center;
+    height: calc( 100vh - 215px);
+    background: #f7f7f7;
+}
+
+.attrCard--title {
+    font-size: 110px;
+    padding-left: 50px;
+    text-align: left;
+    font-weight: 300;
+}
