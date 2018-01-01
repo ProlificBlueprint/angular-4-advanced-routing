@@ -2,6 +2,45 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.7.
 
+## Basic Architecture
+
+The key to creating this mini app was in how used the angular service and routing to accomplish one main goal. To sub route while tracking the parent. This becomes challenging when going three routes deep as we did in this app.
+
+#### How Do We Nest Routes ?
+
+the initially loaded route is the base or tab path but we set a child route to an eampty route to initialize with a child route and a welcome screen.
+```
+{
+  path : 'tab',
+  children : [
+    { path : '', component : name },
+    { path : ':variable', component : name, 
+      children : [] .. .
+      // go as deep as you like
+    }
+  ]
+}
+```
+#### How Do We Track The Current SuperHero ?
+
+Servces to the rescue! This mini app has a service named hero.service. This service keeps trackof two variables this.hero and this.attr. Both of these variable are initialized and manipulated through the service. When we need to know the current value we simple call the service which has kept track of all of the changes and just sends back the value.
+
+```
+
+public variable:any;
+
+constructor(){
+  this.variable
+}
+
+setVariable( newValue ){
+    this.variable = newValue;
+}
+
+getVariable(){
+    return this.variable
+}
+```
 
 ## Development server
 
