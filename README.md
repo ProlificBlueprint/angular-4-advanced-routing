@@ -4,16 +4,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Goal
 
-To create an angular 4 app that will allow us to sub route while tracking a parent routes variable. This becomes challenging when nesting three or more child routes deep as we did in this mini app. There are also many ways to solve this problem but this is the solution we have chosen.
+To create an angular 4 app that will allow us to sub route while tracking a parent routes variable. This becomes challenging when nesting three or more child routes deep as we did in this mini app. There are also many ways to solve this problem but this is the solution chosen.
 
 ## Basic Architecture
 
-The key to creating this mini app was in how we used the angular service and routing together to track the values we wanted to track. This allowed us to share this data accurately and reliably to all components in the app, including those who were nested child routes :) . 
+The key to creating this mini app is in the angular services which were used to track the variables from parent routes that child routes would normally not have access to. This allowed us to share this data accurately and reliably to all components in the app, including those who were nested child routes :) . 
 
 
 #### How Do We Nest Routes ?
 
-the initially loaded route is the base or tab path but we set a child route to an eampty route to initialize with a child route and a welcome screen.
+the initially loaded route is the base or tab path but we set a child route to an empty route to initialize with a child route and a welcome screen.
 ```
 {
   path : 'tab',
@@ -28,7 +28,7 @@ the initially loaded route is the base or tab path but we set a child route to a
 ```
 #### How Do We Track The Current SuperHero ?
 
-Servces to the rescue! This mini app has a service named hero.service. This service keeps trackof two variables this.hero and this.attr. Both of these variable are initialized and manipulated through the service. When we need to know the current value we simple call the service which has kept track of all of the changes and just sends back the value.
+Services to the rescue! This mini app has a service named hero.service. This service keeps track of two variables this.hero and this.attr. Both of these variable are initialized and manipulated through the service. When we need to know the current value we simple call the service which has kept track of all of the changes and just sends back the current value.
 
 ```
 
